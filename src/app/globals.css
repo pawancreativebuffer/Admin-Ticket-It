@@ -830,7 +830,8 @@ button {
   width: 340px;
 }
 .change-client .field-label {
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 700;
 }
 .change-client select {
   font-size: 16px;
@@ -1166,14 +1167,14 @@ button {
 .topbar-client {
   display: flex;
   flex-direction: row-reverse;
-  align-items: stretch;
+  align-items: center;
   gap: 16px;
   padding-right: 12px;
 }
 /* logo stretches to the full height of label + field */
 .topbar-client .logo-preview {
   width: 192px;
-  height: auto;
+  height: 66px;
   padding: 6px 12px;
   background: var(--grey);
 }
