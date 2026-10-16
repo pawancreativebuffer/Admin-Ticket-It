@@ -10,9 +10,10 @@ export function ToastProvider({ children }: { children: React.ReactNode }) {
   const [toasts, setToasts] = useState<Toast[]>([]);
   const nextId = useRef(1);
 
+  // only one toast at a time: a new message replaces the current one and restarts the timer
   const show = useCallback((message: string) => {
     const id = nextId.current++;
-    setToasts((current) => [...current, { id, message }]);
+    setToasts([{ id, message }]);
     setTimeout(() => setToasts((current) => current.filter((toast) => toast.id !== id)), 3000);
   }, []);
 

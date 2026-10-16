@@ -105,3 +105,25 @@ export const FONT_MAPS = [
 
 export const POS_OPTIONS = ["IdealPOS", "SwiftPOS", "Vend", "Lightspeed", "Surefire", "Metcash", "Other"];
 export const CURRENCY_OPTIONS = ["AUD", "NZD", "GBP", "USD"];
+
+// sample of the synced images (legacy list: a pdf + png per ticket template, plus product images)
+export const IMAGES = [
+  "2.9_BWRY_Landscape_296x128.pdf",
+  "2.9_BWRY_Landscape_296x128.png",
+  "A3_Portrait_1UP.pdf",
+  "A3_Portrait_1UP.png",
+  "A4_A5_Portrait_2UP.pdf",
+  "A4_A5_Portrait_2UP.png",
+  "A4_A7_Portrait_8UP.pdf",
+  "A4_A7_Portrait_8UP.png",
+  "A4_Portrait_1UP.pdf",
+  "A4_Portrait_1UP.png",
+  "Food_Villa_A4_Promo.png",
+  "Food_Villa_A5_Everyday.png",
+  "Food_Villa_Logo.png",
+  "Member_Price_Badge.png",
+  "Multibuy_Burst.png",
+  "Special_Offer_Banner.png",
+  "Was_Now_Strip.png",
+  "Shelf_Strip_Background.png",
+];

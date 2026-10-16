@@ -6,6 +6,7 @@ export default function FormField({
   defaultValue,
   placeholder,
   disabled,
+  onChange,
 }: {
   label: string;
   name: string;
@@ -13,6 +14,7 @@ export default function FormField({
   defaultValue?: string;
   placeholder?: string;
   disabled?: boolean;
+  onChange?: (value: string) => void;
 }) {
   return (
     <div className="custom-field">
@@ -27,6 +29,9 @@ export default function FormField({
           defaultValue={defaultValue}
           placeholder={placeholder}
           disabled={disabled}
+          onChange={
+            onChange ? (event) => onChange(event.target.value) : undefined
+          }
         />
       </div>
     </div>
