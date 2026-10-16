@@ -25,12 +25,12 @@ export default function ClientAdministrationPage() {
     <AdminShell>
       <div className="detail-page-topbar">
         <h2 className="subpage-title">Client Administration</h2>
-        <button type="button" className="cta_with_icon mint-bg">
+        <Link href="/client-administration/create" className="cta_with_icon mint-bg">
           <span>
             <i className="fa-solid fa-plus"></i>
           </span>
           <p>Create Client</p>
-        </button>
+        </Link>
       </div>
 
       <main className="flex flex-col gap-4 p-4">

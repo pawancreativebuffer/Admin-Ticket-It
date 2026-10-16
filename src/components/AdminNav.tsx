@@ -10,7 +10,7 @@ const NAV_ITEMS: { label: string; href?: string; paths?: string[] }[] = [
   { label: "User Administration", href: "/", paths: ["/", "/edit-user"] },
   { label: "Import Client Data" },
   { label: "Use Report", href: "/use-report", paths: ["/use-report"] },
-  { label: "Client Administration", href: "/client-administration", paths: ["/client-administration", "/client-administration/edit"] },
+  { label: "Client Administration", href: "/client-administration", paths: ["/client-administration", "/client-administration/edit", "/client-administration/create"] },
 ];
 
 export default function AdminNav() {

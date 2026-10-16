@@ -1,3 +1,3 @@
 export default function PanelFooter() {
-  return <footer className="footer-area">© 2023 Scarlett Eden Limited</footer>;
+  return <footer className="footer-area">© 2026 Scarlett Eden Limited</footer>;
 }
